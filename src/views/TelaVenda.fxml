@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="547.0" prefWidth="872.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.VendaController">
+   <children>
+      <Pane prefHeight="52.0" prefWidth="899.0" style="-fx-background-color: FF5733;">
+         <children>
+            <Text fill="#fffbfb" layoutX="422.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Venda" wrappingWidth="126.3486328125">
+               <font>
+                  <Font name="DejaVu Sans Mono Bold" size="29.0" />
+               </font>
+            </Text>
+            <Button fx:id="buttonVoltar" layoutX="8.0" layoutY="14.0" mnemonicParsing="false" style="-fx-background-color: FF5733;" text="&lt;&lt;Voltar" textAlignment="CENTER" textFill="#eee4e4">
+               <font>
+                  <Font name="DejaVuMathTeXGyre-Regular" size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Button fx:id="buttonTroco" layoutX="639.0" layoutY="323.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="166.0" style="-fx-background-radius: 20; -fx-background-color: FF5733;" text="Calcular Troco" textFill="#eeeeee" />
+      <Button fx:id="buttonVenderProdutos" layoutX="637.0" layoutY="480.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="250.0" style="-fx-background-radius: 20; -fx-background-color: FF5733;" text="Vender Produtos" textFill="#eeeeee" />
+      <TextField fx:id="textCodigo" layoutX="18.0" layoutY="110.0" prefHeight="25.0" prefWidth="266.0" promptText="Códgo do produto" />
+      <Label layoutX="22.0" layoutY="86.0" text="Código" textFill="#e1790a" />
+      <TextField fx:id="textValorCliente" layoutX="612.0" layoutY="205.0" prefHeight="42.0" prefWidth="126.0" promptText="Valor cliente" />
+      <TextField fx:id="textValorProdutos" editable="false" layoutX="780.0" layoutY="205.0" prefHeight="42.0" prefWidth="113.0" promptText="Valor Produtos" />
+      <TextField fx:id="textQuantidade" layoutX="481.0" layoutY="110.0" prefHeight="25.0" prefWidth="304.0" promptText="Quantidade" />
+      <Label layoutX="612.0" layoutY="163.0" prefHeight="30.0" prefWidth="102.0" text="Valor cliente" textFill="#e1790a">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label layoutX="753.0" layoutY="210.0" prefHeight="15.0" prefWidth="21.0" text="-">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tableViewProduto" editable="true" layoutX="18.0" layoutY="165.0" prefHeight="366.0" prefWidth="583.0" stylesheets="@../Estilo/style.css">
+        <columns>
+          <TableColumn fx:id="columnCod" prefWidth="126.0" styleClass="coluna" text="Cod" />
+          <TableColumn fx:id="columnTipo" prefWidth="152.0" text="Tipo" />
+            <TableColumn fx:id="columnMarca" prefWidth="132.0" text="Marca" />
+            <TableColumn fx:id="columnValor" prefWidth="172.0" text="Preço" />
+        </columns>
+      </TableView>
+      <TextField fx:id="textTroco" editable="false" layoutX="711.0" layoutY="274.0" prefHeight="42.0" prefWidth="126.0" promptText="Troco" />
+      <Button fx:id="buttonBuscar" layoutX="310.0" layoutY="110.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="126.0" style="-fx-background-radius: 20; -fx-background-color: FF5733;" text="buscar" textFill="#eeeeee" />
+      <Label layoutX="653.0" layoutY="280.0" prefHeight="15.0" prefWidth="21.0" text="=">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="22.0" layoutY="150.0" prefHeight="15.0" prefWidth="462.0" text="Clique no item para remover da lista de compras" textFill="#e1790a" />
+      <Button fx:id="buttonRemover" layoutX="643.0" layoutY="378.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="172.0" style="-fx-background-radius: 20; -fx-background-color: FF5733;" text="Remover Item" textFill="#eeeeee" />
+      <Label layoutX="484.0" layoutY="86.0" text="Quantidade do Produto" textFill="#e1790a" />
+      <Label layoutX="780.0" layoutY="163.0" prefHeight="30.0" prefWidth="113.0" text="Valor Produtos" textFill="#e1790a">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="729.0" layoutY="247.0" prefHeight="30.0" prefWidth="102.0" text="Troco" textFill="#e1790a">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

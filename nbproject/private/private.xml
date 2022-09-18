@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/usuario/NetBeansProjects/SuperMercado/src/Controllers/LoginController.java</file>
+            <file>file:/home/usuario/NetBeansProjects/SuperMercado/src/model/Produto.java</file>
+            <file>file:/home/usuario/NetBeansProjects/SuperMercado/src/Controllers/VendaController.java</file>
+            <file>file:/home/usuario/NetBeansProjects/SuperMercado/src/revisaobd/Principal.java</file>
+            <file>file:/home/usuario/NetBeansProjects/SuperMercado/src/Controllers/PrincipalController.java</file>
+            <file>file:/home/usuario/NetBeansProjects/SuperMercado/src/Controllers/CadastroController.java</file>
+            <file>file:/home/usuario/NetBeansProjects/SuperMercado/src/img/user.png</file>
+            <file>file:/home/usuario/NetBeansProjects/SuperMercado/src/revisaobd/Consulta.java</file>
+            <file>file:/home/usuario/NetBeansProjects/SuperMercado/src/DB/BancoDeDados.java</file>
+            <file>file:/home/usuario/NetBeansProjects/SuperMercado/src/rel/imagem/logo.png</file>
+            <file>file:/home/usuario/NetBeansProjects/SuperMercado/src/views/TelaLogin.fxml</file>
+            <file>file:/home/usuario/NetBeansProjects/SuperMercado/src/revisaobd/Editar.java</file>
+            <file>file:/home/usuario/NetBeansProjects/SuperMercado/src/revisaobd/Venda.java</file>
+            <file>file:/home/usuario/NetBeansProjects/SuperMercado/src/revisaobd/Cadastro.java</file>
+            <file>file:/home/usuario/NetBeansProjects/SuperMercado/src/Controllers/ConsultaController.java</file>
+            <file>file:/home/usuario/NetBeansProjects/SuperMercado/src/DB/DAO.java</file>
+            <file>file:/home/usuario/NetBeansProjects/SuperMercado/src/views/TelaConsulta.fxml</file>
+            <file>file:/home/usuario/NetBeansProjects/SuperMercado/src/img/deposito.jpg</file>
+            <file>file:/home/usuario/NetBeansProjects/SuperMercado/src/views/TelaMain.fxml</file>
+            <file>file:/home/usuario/NetBeansProjects/SuperMercado/src/views/TelaCadastroProduto.fxml</file>
+            <file>file:/home/usuario/NetBeansProjects/SuperMercado/src/views/TelaVenda.fxml</file>
+            <file>file:/home/usuario/NetBeansProjects/SuperMercado/src/relatorio/Relatorio.java</file>
+            <file>file:/home/usuario/NetBeansProjects/SuperMercado/src/revisaobd/Login.java</file>
+            <file>file:/home/usuario/NetBeansProjects/SuperMercado/src/views/TelaPrincipal.fxml</file>
+            <file>file:/home/usuario/NetBeansProjects/SuperMercado/src/Controllers/EditarController.java</file>
+            <file>file:/home/usuario/NetBeansProjects/SuperMercado/src/Estilo/style.css</file>
+        </group>
+    </open-files>
+</project-private>

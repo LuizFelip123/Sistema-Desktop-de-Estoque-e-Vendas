@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="552.0" prefWidth="590.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.LoginController">
+   <children>
+      <Pane id="LoginPanel" layoutX="237.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="557.0" prefWidth="353.0" style="-fx-background-color: FF5733;">
+         <children>
+            <Pane layoutX="-236.0" prefHeight="557.0" prefWidth="236.0" style="-fx-background-color: fff;">
+               <children>
+                  <ImageView fitHeight="134.0" fitWidth="225.0" layoutX="14.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/deposito.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Button fx:id="entrar" layoutX="126.0" layoutY="355.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="123.0" style="-fx-background-color: fff;" text="Login" textFill="#fc490d" textOverrun="CLIP">
+               <font>
+                  <Font name="Serif Regular" size="13.0" />
+               </font>
+            </Button>
+            <Label layoutX="20.0" layoutY="14.0" prefHeight="15.0" prefWidth="225.0" text="SISTEMA  DE SUPERMARCADO" textFill="#fff8f8d9">
+               <font>
+                  <Font name="Serif Regular" size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="campoUser" layoutX="35.0" layoutY="202.0" prefHeight="25.0" prefWidth="304.0" />
+            <Label layoutX="33.0" layoutY="180.0" text="USER" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="35.0" layoutY="246.0" text="SENHA" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="campoSenha" layoutX="33.0" layoutY="266.0" prefHeight="25.0" prefWidth="304.0" />
+            <Button fx:id="buttonClose" layoutX="304.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="48.0" style="-fx-background-color: FF5733;" text="X" textFill="WHITE">
+               <font>
+                  <Font name="FreeSerif" size="24.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

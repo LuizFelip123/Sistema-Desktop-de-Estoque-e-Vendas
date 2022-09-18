@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="540.0" prefWidth="816.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.CadastroController">
+   <children>
+      <Pane prefHeight="540.0" prefWidth="312.0" style="-fx-background-color: FF5733;">
+         <children>
+            <ImageView fitHeight="117.0" fitWidth="75.0" layoutX="41.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/user.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="157.0" layoutY="18.0" text="Luiz Felipe" textFill="WHITE" />
+            <Label layoutX="157.0" layoutY="44.0" text="Gerente" />
+            <Button layoutX="29.0" layoutY="138.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="267.0" style="-fx-background-radius: 20; -fx-background-color: fff;" text="Vender" textFill="#d3740e" />
+            <Button fx:id="buttonEstoque" layoutX="29.0" layoutY="171.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="267.0" style="-fx-background-radius: 20; -fx-background-color: fff;" text="Verificar Estoque" textFill="#d3740e" />
+            <Button fx:id="buttonSair" layoutX="14.0" layoutY="508.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="69.0" style="-fx-background-radius: 20; -fx-background-color: fff;" text="Sair" textFill="#d3740e" />
+            <Button fx:id="buttonPrincipal" layoutX="31.0" layoutY="205.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="267.0" style="-fx-background-radius: 20; -fx-background-color: fff;" text="Principal" textFill="#d3740e" />
+         </children>
+      </Pane>
+      <TextField fx:id="textCod" layoutX="345.0" layoutY="91.0" prefHeight="25.0" prefWidth="304.0" promptText="cod" />
+      <TextField fx:id="textTipo" layoutX="345.0" layoutY="146.0" prefHeight="25.0" prefWidth="304.0" promptText="Tipo produto" />
+      <TextField fx:id="textQuantidade" layoutX="345.0" layoutY="201.0" prefHeight="25.0" prefWidth="304.0" promptText="Quantidade" />
+      <TextField fx:id="textMarca" layoutX="345.0" layoutY="258.0" prefHeight="25.0" prefWidth="304.0" promptText="Marca Produto" />
+      <TextField fx:id="textValor" layoutX="345.0" layoutY="314.0" prefHeight="25.0" prefWidth="304.0" promptText="valor do produto" />
+      <Label layoutX="339.0" layoutY="27.0" text="Cadastrar Produto" textFill="#fc5c06">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="buttonCadastrar" layoutX="666.0" layoutY="484.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="98.0" style="-fx-background-radius: 20; -fx-background-color: FF5733;" text="Cadastrar" textFill="#eeeeee" />
+      <Label layoutX="345.0" layoutY="66.0" text="Código" textFill="#e1790a" />
+      <Label layoutX="348.0" layoutY="291.0" text="Valor" textFill="#e1790a" />
+      <Label layoutX="345.0" layoutY="180.0" text="Quantidade" textFill="#e1790a" />
+      <Label layoutX="345.0" layoutY="236.0" text="Marca" textFill="#e1790a" />
+      <Label layoutX="345.0" layoutY="122.0" text="Tipo" textFill="#e1790a" />
+   </children>
+</AnchorPane>

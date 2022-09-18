@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="540.0" prefWidth="816.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ConsultaController">
+   <children>
+      <Pane prefHeight="540.0" prefWidth="312.0" style="-fx-background-color: FF5733;">
+         <children>
+            <ImageView fitHeight="117.0" fitWidth="75.0" layoutX="41.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/user.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="157.0" layoutY="18.0" text="Luiz Felipe" textFill="WHITE" />
+            <Label layoutX="157.0" layoutY="44.0" text="Gerente" />
+            <Button fx:id="buttonVende" layoutX="29.0" layoutY="138.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="267.0" style="-fx-background-radius: 20; -fx-background-color: fff;" text="Vender" textFill="#d3740e" />
+            <Button fx:id="buttonCadastrar" layoutX="29.0" layoutY="173.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="267.0" style="-fx-background-radius: 20; -fx-background-color: fff;" text="Cadastrar Produto" textFill="#d3740e" />
+            <Button fx:id="buttonSair" layoutX="14.0" layoutY="508.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="69.0" style="-fx-background-radius: 20; -fx-background-color: fff;" text="Sair" textFill="#d7720d" />
+            <Button fx:id="buttonPrincipal" layoutX="29.0" layoutY="209.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="267.0" style="-fx-background-radius: 20; -fx-background-color: fff;" text="Principal" textFill="#d3740e" />
+         </children>
+      </Pane>
+      <Button fx:id="buttonPesquisa" layoutX="669.0" layoutY="95.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="98.0" style="-fx-background-radius: 20; -fx-background-color: FF5733;" text="Pesquisar" textFill="#eeeeee" />
+      <Button fx:id="buttonAtualizar" layoutX="704.0" layoutY="501.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="98.0" style="-fx-background-radius: 20; -fx-background-color: FF5733;" text="Atualizar" textFill="#eeeeee" />
+      <Label layoutX="326.0" layoutY="36.0" text="Consulta Produto" textFill="#fc5c06">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textTipoPesquisa" layoutX="344.0" layoutY="95.0" prefHeight="25.0" prefWidth="304.0" promptText="Busca por tipo" />
+      <TableView fx:id="tabelaViewProduto" layoutX="331.0" layoutY="133.0" prefHeight="359.0" prefWidth="471.0" stylesheets="@../Estilo/style.css">
+        <columns>
+          <TableColumn fx:id="columnCod" prefWidth="89.0" text="Cod" />
+          <TableColumn fx:id="columnMarca" prefWidth="83.0" text="marca" />
+            <TableColumn fx:id="columnValor" prefWidth="95.0" text="valor" />
+            <TableColumn fx:id="columnTipo" prefWidth="97.0" text="tipo" />
+            <TableColumn fx:id="columnQuant" prefWidth="106.0" text="quant" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

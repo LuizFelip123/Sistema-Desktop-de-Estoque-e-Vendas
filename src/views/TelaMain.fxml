@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="547.0" prefWidth="872.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="547.0" prefWidth="312.0" style="-fx-background-color: FF5733;">
+         <children>
+            <ImageView fitHeight="117.0" fitWidth="75.0" layoutX="41.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Área%20de%20Trabalho/121693.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="157.0" layoutY="18.0" text="Luiz Felipe" textFill="WHITE" />
+            <Label layoutX="157.0" layoutY="44.0" text="Gerente" />
+            <Button layoutX="29.0" layoutY="138.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="267.0" style="-fx-background-radius: 20; -fx-background-color: fff;" text="Vender" textFill="#d3740e" />
+            <Button layoutX="29.0" layoutY="171.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="267.0" style="-fx-background-radius: 20; -fx-background-color: fff;" text="Verificar Estoque" textFill="#d3740e" />
+            <Button layoutX="29.0" layoutY="207.0" mnemonicParsing="false" onAction="#mostrarCadastrarProduto" prefHeight="25.0" prefWidth="267.0" style="-fx-background-radius: 20; -fx-background-color: fff;" text="Cadastrar Produto" textFill="#d3740e" />
+            <Button layoutX="14.0" layoutY="508.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="69.0" style="-fx-background-radius: 20; -fx-background-color: fff;" text="Sair" textFill="#d3740e" />
+            <Button layoutX="29.0" layoutY="241.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="267.0" style="-fx-background-radius: 20; -fx-background-color: fff;" text="Criar Relatorio" textFill="#d3740e" />
+         </children>
+      </Pane>
+      <Label layoutX="360.0" layoutY="43.0" text="Bem-vindo ao Sistema de Gerencionamento de Mercado" textFill="#fc5c06">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="342.0" layoutY="173.0" prefHeight="33.0" prefWidth="473.0" text="Escolha uma opção das operaçoes  do menu ao lado para ser realizada." textFill="#dd3106" />
+   </children>
+</AnchorPane>
